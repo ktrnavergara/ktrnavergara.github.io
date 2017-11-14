@@ -61,12 +61,19 @@ p {
 
 .about-pic {}
 
-.about {
+.about,
+.projects {
     width: 95vw;
 }
 
 p.bio {
     text-align: justify;
+}
+
+.project-container {}
+
+.project-pic {
+    width: 80vw;
 }
 
 @keyframes write {
