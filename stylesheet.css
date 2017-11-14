@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 12px;
 }
 
@@ -54,7 +54,8 @@ p {
     animation: write 2.5s ease-in 1 forwards;
 }
 
-.about-pic-container {
+.about-pic-container,
+.project-pic {
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -66,15 +67,14 @@ p {
     width: 95vw;
 }
 
-p.bio {
+p.bio,
+p.description {
     text-align: justify;
 }
 
 .project-container {}
 
-.project-pic {
-    width: 80vw;
-}
+.project-pic {}
 
 @keyframes write {
     to {
@@ -92,7 +92,8 @@ p.bio {
     .home {
         width: 40vw;
     }
-    .about {
+    .about,
+    .projects {
         width: 80vw;
     }
 }
@@ -101,7 +102,8 @@ p.bio {
     .home {
         width: 30vw;
     }
-    .about {
+    .about,
+    .projects {
         width: 60vw;
     }
 }
@@ -110,7 +112,8 @@ p.bio {
     .home {
         width: 20vw;
     }
-    .about {
+    .about,
+    .projects {
         width: 50vw;
     }
 }
