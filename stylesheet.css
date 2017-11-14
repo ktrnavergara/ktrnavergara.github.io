@@ -1,0 +1,109 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.home {
+    width: 60vw;
+}
+
+.home-container {
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container .info-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-bar {
+    height: 1.5rem;
+    width: 0.25rem;
+    margin-right: 0.5rem;
+}
+
+.logo {
+    font-family: 'Trirong', serif;
+}
+
+#hello-wrapper {
+    width: 20vw;
+}
+
+.hello {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-linecap: round;
+    stroke-width: 3;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: write 2.5s ease-in 1 forwards;
+}
+
+.about-pic-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.about-pic {}
+
+.about {
+    width: 95vw;
+}
+
+p.bio {
+    text-align: justify;
+}
+
+@keyframes write {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        padding-top: 50px;
+    }
+    #hello-wrapper {
+        width: 10vw;
+    }
+    .home {
+        width: 40vw;
+    }
+    .about {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .home {
+        width: 30vw;
+    }
+    .about {
+        width: 60vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .home {
+        width: 20vw;
+    }
+    .about {
+        width: 50vw;
+    }
+}
