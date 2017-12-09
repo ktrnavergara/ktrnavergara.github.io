@@ -20,6 +20,11 @@ p {
     font-size: 1.7em;
 }
 
+.subheading{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
 .home {
     width: 60vw;
 }
